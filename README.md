@@ -32,4 +32,4 @@ This would be an ideal use of the in-Unity HTTP server.
 
 Making endpoints means that I can make scripts to edit the game live, reducing my debug workflow to "Insert/Adjust -> Observe -> Repeat".
 
-All of this would also be a precursor to other production-acceptable endpoints.
+All of this could also be a precursor to other production-acceptable endpoints.
