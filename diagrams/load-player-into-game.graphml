@@ -2481,6 +2481,17 @@ From<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngl
         </y:PolyLineEdge>
       </data>
     </edge>
+    <edge id="n2::e16" source="n2::n6" target="n2::n7">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
   </graph>
   <data key="d7">
     <y:Resources/>
