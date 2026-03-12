@@ -39,7 +39,7 @@ With this setup, it came as shock when a single Cube unit absolutely destroyed t
 
 ### The Problem
 
-Even with just 5 statistics, this became a thing that would be tricky to debug if I had to balance even just these two units. I think that the problem lies in directly setting unit stats in the template.
+Even with just 5 statistics and 2 units, this became a feature that would be tricky to debug. I think that the problem lies in directly setting unit stats in the template.
 
 In hindsight, keeping a 1:1 template:stat-value setup would create a pile of maintenance nightmares like these:
 
