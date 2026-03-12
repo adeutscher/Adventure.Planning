@@ -80,6 +80,16 @@ unit.Strength = npcStatCalculationService.CalculateStrength(chosenLevel, npcTemp
 
 The initial version of this modifier system certainly doesn't need perfect formulas, but it should be structured off the jump to be easily planned, modified, and discretely unit tested (for example, the formula for a unit's Strength shouldn't care about the formula for the Strength modifier).
 
+### Validation
+
+I signed on to World of Warcraft to try and find evidence that their dev team came to a similar conclusion. It's tricky to quickly get a sense of a scaling curve through an inactive Retail subscription because of the automatic scaling of many enemy NPCs to match the level of the observing player. That being said, I was able to observe some things that were helpful:
+
+* Every level 5 enemy that I could find had a consistent 145 HP.
+    * One friendly level 5 NPC was an exception to this rule. Not sure if it is for his role as a vendor(/guard?) or for story reasons as he was a giant Abomination, but by hook or by crook Gordo in Tirisfal Glades had 289 HP at level 5.
+* Every level 7 enemy that I could find had a consistent 204 HP.
+
+I'm not going to try to match/reverse-engineer __*every*__ WoW formula that I can get my hands on, especially because there's nothing to say that a back-end system like NPC scaling couldn't switch to an entirely different formula in a different level range (I mean, experience in new expansion zones certanily did in the old days). I just found it very reassuring that I was able to come up with a similar plan to the same problem.
+
 ## Character Animations
 
 These are some early thoughts on handling unit animation. Actual implementation is still a ways off as my focus for now is on mechanics over visuals, but this page makes for a slightly less obscure place for these notes than in the comments section for the mostly-unrelated Unit Auto-Attack task.
