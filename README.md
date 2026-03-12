@@ -88,7 +88,7 @@ I signed on to World of Warcraft to try and find evidence that their dev team ca
     * One friendly level 5 NPC was an exception to this rule. Not sure if it is for his role as a vendor(/guard?) or for story reasons as he was a giant Abomination, but by hook or by crook Gordo in Tirisfal Glades had 289 HP at level 5.
 * Every level 7 enemy that I could find had a consistent 204 HP.
 
-I'm not going to try to match/reverse-engineer __*every*__ WoW formula that I can get my hands on, especially because there's nothing to say that a back-end system like NPC scaling couldn't switch to an entirely different formula in a different level range (I mean, experience in new expansion zones certanily did in the old days). I just found it very reassuring that I was able to come up with a similar plan to the same problem.
+I'm not going to try to match/reverse-engineer __*every*__ WoW formula that I can get my hands on, especially because there's nothing to say that a back-end system like NPC scaling couldn't switch to an entirely different formula in a different level range (I mean, experience in new expansion zones certainly did in the old days). I just found it very reassuring that I was able to come up with a similar plan to the same problem.
 
 ## Character Animations
 
