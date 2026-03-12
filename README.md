@@ -85,7 +85,7 @@ The initial version of this modifier system certainly doesn't need perfect formu
 I signed on to World of Warcraft to try and find evidence that their dev team came to a similar conclusion. It's tricky to quickly get a sense of a scaling curve through an inactive Retail subscription because of the automatic scaling of many enemy NPCs to match the level of the observing player. That being said, I was able to observe some things that were helpful:
 
 * Every level 5 enemy that I could find had a consistent 145 HP.
-    * One friendly level 5 NPC was an exception to this rule. Not sure if it is for his role as a vendor(/guard?) or for story reasons as he was a giant Abomination, but by hook or by crook Gordo in Tirisfal Glades had 289 HP at level 5.
+    * One friendly level 5 NPC was an exception to this rule. Not sure if it is for his role as a vendor(/guard?) or for story reasons as he was a giant Abomination, but by hook or by crook Gordo in Tirisfal Glades had 289 HP at level 5. This suggests that some sort of dials for NPC strength exist beyond just level and normal/elite/boss status.
 * Every level 7 enemy that I could find had a consistent 204 HP.
 
 I'm not going to try to match/reverse-engineer __*every*__ WoW formula that I can get my hands on, especially because there's nothing to say that a back-end system like NPC scaling couldn't switch to an entirely different formula in a different level range (I mean, experience in new expansion zones certainly did in the old days). I just found it very reassuring that I was able to come up with a similar plan to the same problem.
