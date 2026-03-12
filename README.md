@@ -80,6 +80,18 @@ unit.Strength = npcStatCalculationService.CalculateStrength(chosenLevel, npcTemp
 
 The initial version of this modifier system certainly doesn't need perfect formulas, but it should be structured off the jump to be easily planned, modified, and discretely unit tested (for example, the formula for a unit's Strength shouldn't care about the formula for the Strength modifier).
 
+### Different Translation Rules
+
+Not a problem that I need to solve on the first pass, but another consideration is that the effective stats that an NPC gets don't necessarily have to translate to the exact same results.
+
+For another WoW example, NPCs have completely different rules for critical effects:
+* An enemy NPC's melee effects had a crit chance based not upon any stats but on the level of the opposing player.
+    * Tank roles would gather resistance to critical effects in order to avoid random damage spikes. This could be done through stats or talents, depending on one's class.
+    * The equivalent to a `UnitEntity` could have a crit stat of 0, or it could be completely ignored.
+* An enemy NPC's spells could not crit at all, at least in older versions.
+
+Planning to keep NPCs playing by the exact same rules until I have a solid reason not to. Player vs. NPC critical hits would be an excellent reason to carve out a different rule. I'm getting ahead of myself though, as the current prototype doesn't even know the concept of a critical hit.
+
 ### Validation
 
 I signed on to World of Warcraft to try and find evidence that their dev team came to a similar conclusion. It's tricky to quickly get a sense of a scaling curve through an inactive Retail subscription because of the automatic scaling of many enemy NPCs to match the level of the observing player. That being said, I was able to observe some things that were helpful:
